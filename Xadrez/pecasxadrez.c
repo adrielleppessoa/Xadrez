@@ -32,6 +32,24 @@ int main() {
         printf("- Esquerda\n");
     }
 
+    // CAVALO: 2 casas para baixo e 1 para esquerda - usando loop aninhado (for e while)
+
+    printf("\n===== Movimento do CAVALO =====\n\n");
+
+    for (int i = 0; i < 1; i++) {
+        int cavalo = 1;
+
+        // Duas casas para baixo
+        while (cavalo <= 2)
+        {
+            printf("- Baixo\n");
+            cavalo++;
+        }
+
+        // Uma casa para a esquerda
+        printf("- Esquerda\n");
+    }
+
     printf("\n(Fim da Partida)\n\n");
 
 
